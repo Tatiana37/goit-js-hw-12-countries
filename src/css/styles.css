@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  background-color: rgb(250, 250, 149);
+}
+
+.input {
+  margin-left: 30px;
+  margin-bottom: 100px;
+  width: 250px;
+  height: 45px;
+}
+
+.title {
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.list-container {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 600px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__content {
+  margin-right: 30px;
+}
+
+.card__image {
+  width: 400px;
+}
+
+.languages-list {
+  padding-left: 20px;
+}
+
+.card__name {
+  margin-top: 0;
+}
+
+.country-list {
+  padding: 0;
+}
