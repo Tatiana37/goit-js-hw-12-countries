@@ -4,12 +4,6 @@ import { error } from '../node_modules/@pnotify/core/dist/PNotify.js';
 import '@pnotify/core/dist/BrightTheme.css';
 import countryCard from './templates/countryCard.hbs';
 import countriesList from './templates/countriesList.hbs';
-// import './styles.css';
-// console.log(fetchCountries);
-
-// error({
-//   text: "I'm an error message."
-// });
 
 const debounce = require('lodash.debounce');
 
